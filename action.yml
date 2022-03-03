@@ -1,0 +1,16 @@
+name: 'Raito CLI'
+description: 'Setup the Raito CLI'
+inputs:
+  version:  
+    description: "Version of Raito CLI to install. If not specified, the latest version is installed."
+    required: false
+    default: ""
+  github-token:
+    description: This is needed as long as the CLI is in a private repository.
+    required: false
+outputs:
+  version: 
+    description: 'The version of the Raito CLI that was installed'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

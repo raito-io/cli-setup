@@ -1,0 +1,26 @@
+{
+  "name": "cli-setup",
+  "version": "1.0.0",
+  "description": "GitHub Action to setup the Raito CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raito-io/cli-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/raito-io/cli-setup/issues"
+  },
+  "homepage": "https://github.com/raito-io/cli-setup#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@actions/tool-cache": "^1.7.1",
+    "@octokit/rest": "^18.12.0"
+  }
+}
