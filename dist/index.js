@@ -68,7 +68,7 @@ async function downloadCLI (url, auth) {
   const pathToCLI = await tc.extractTar(pathToCLITar);
   core.info(`Raito CLI path is ${pathToCLI}.`);
   
-  if (!pathToCLIZip || !pathToCLI) {
+  if (!pathToCLITar || !pathToCLI) {
     throw new Error(`Unable to download Raito from ${url}`);
   }
   
