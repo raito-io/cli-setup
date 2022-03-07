@@ -18,6 +18,8 @@ const { Octokit } = __nccwpck_require__(7276)
 
 async function run () {
   try {
+    core.exportVariable("RAITO_LOG_OUTPUT", "true")
+
     // Gather GitHub Actions inputs
     let version = core.getInput('version');
 
