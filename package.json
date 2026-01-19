@@ -34,7 +34,7 @@
   "homepage": "https://github.com/raito-io/cli-setup#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0",
+    "@actions/github": "^7.0.0",
     "@actions/tool-cache": "^2.0.2",
     "@octokit/rest": "^21.1.1"
   },
